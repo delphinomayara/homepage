@@ -36,8 +36,8 @@
 		}
 	},
 	"polarChart": {
-		"skills": ["Node", "Vue.js", "React", "JavaScript", "Java", "Python", "linux", "Docker", "MySQL", "MongoDB", "AWS"],
-		"skillPoints": [90, 85, 78, 88, 80, 78, 85, 65, 82, 78, 65]
+		"skills": ["Java", "Python","Visual Basic"],
+		"skillPoints": [15, 25, 15]
 	},
 	"socialPlatformIcons": [{
 		"icon": "mdi-github",
@@ -223,6 +223,6 @@
 		"url": "https://leleo.top",
 		"show": false
 	}],
-	"statement": ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"]
+	"statement": [""]
 }
 ```
