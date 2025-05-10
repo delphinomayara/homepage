@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'Leleo的个人主页🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
+    title: 'silverfish的个人主页🎉',
+    description: '欢迎来到silverfish的奇妙世界！',
+    keywords: 'silverfish,silverfish,个人主页,个人网站',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
 
   avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm Leleo", // 标题
+  welcometitle: "Hi, I'm silverfish", // 标题
 
   // 颜色配置
   color: {
@@ -20,16 +20,16 @@ const config = {
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['是个活人'],
 
   // 默认背景壁纸
   background: {
     "pc":{   //pc端
-      "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
+      "type":"video",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"1",
+        "preview":"/img/wallpaper/dynamic/1/1.mp4",
+        "url":"/img/wallpaper/dynamic/1/1.mp4",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
@@ -37,7 +37,7 @@ const config = {
       "datainfo":{
         "title":"0001", 
         "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
-        "url":"/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "url":"/img/wallpaper/static-mobile/0001/image.webp"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
@@ -51,8 +51,8 @@ const config = {
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
+    {icon:"mdi-github",link:"https://github.com/delphinomayara"},
+    {icon:"mdi-email",link:"mailto:kh2_po4@qq.com"},
     {icon:"mdi-qqchat",link:"https://im.qq.com/"},
     {icon:"mdi-wechat",link:"https://wx.qq.com/"},
     {icon:"mdi-youtube",link:"https://www.youtube.com"},
@@ -69,9 +69,9 @@ const config = {
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
   musicPlayer:{
-    server: 'netease',  //服务提供商 --网易云音乐
+    server: 'tencent',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '9492837406'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -88,13 +88,14 @@ const config = {
       {"title":"jgnIKMpd","preview":"https://file.uhsea.com/2503/5d4d35ed1c286afc930184231456edc9BR.png","url":"https://file.uhsea.com/2503/3bf8025d8ad7ccefcf7e72c9368a245cLL.png"},
       {"title":"mgqyySeh","preview":"https://file.uhsea.com/2503/38994dc4ef8659067537a3ea11af0927KB.png","url":"https://file.uhsea.com/2503/6e3b14778e879234826b9d5c793474ffOS.png"},
       {"title":"dSXZfZp","preview":"https://file.uhsea.com/2503/22c27ea8c1e44209a223a28026146115LS.png","url":"https://file.uhsea.com/2503/8d1203a01e7a5a639caf91ca6c9608acVL.png"},
-      
+      {"title":"阿罗娜和普拉娜","preview":"/img/wallpaper/static/阿罗娜和普拉娜/2.jpg","url":"/img/wallpaper/static/阿罗娜和普拉娜/2.jpg"},
     ],
     picMobile:[
       {"title":"0001","preview":"/img/wallpaper/static-mobile/0001/image-pre.webp","url":"/img/wallpaper/static-mobile/0001/image.png"},
       {"title":"0002","preview":"/img/wallpaper/static-mobile/0002/image-pre.webp","url":"/img/wallpaper/static-mobile/0002/image.png"},
       {"title":"0003","preview":"/img/wallpaper/static-mobile/0003/image-pre.webp","url":"/img/wallpaper/static-mobile/0003/image.png"},
       {"title":"0004","preview":"/img/wallpaper/static-mobile/0004/image-pre.webp","url":"/img/wallpaper/static-mobile/0004/image.png"},
+      {"title":"0005","preview":"/img/wallpaper/static-mobile/0005/3.jpg","url":"/img/wallpaper/static-mobile/0005/3.jpg"},
       {"title":"DfNHPPcc","preview":"https://file.uhsea.com/2503/e3510f4d0286e37b828f74494230f0efM2.png","url":"https://file.uhsea.com/2503/97b50adb3d4cd6f1a4132f6d3e8c98483T.png"},
       {"title":"WIOlrGSy","preview":"https://file.uhsea.com/2503/99162abfe07e18cfe6182ca3458561ef3A.png","url":"https://file.uhsea.com/2503/609532b992163117db9b341dde87b78f3C.png"},
       {"title":"cZZwzhis","preview":"https://file.uhsea.com/2503/cf558fa1989c07726778c60be47b9928K8.png","url":"https://file.uhsea.com/2503/e27b91f1604f73d0444c807024ef7c9fI3.png"},
@@ -110,6 +111,11 @@ const config = {
         "title":"向往航天的女孩",
         "preview":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
         "url":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"
+      },
+      {
+        "title":"1",
+        "preview":"/img/wallpaper/dynamic/1/1.mp4",
+        "url":"/img/wallpaper/dynamic/1/1.mp4"
       },
     ],
     videoMobile:[
@@ -128,22 +134,27 @@ const config = {
         "preview":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
         "url":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
       },
+      {
+        "title":"水中的梓",
+        "preview":"/img/wallpaper/dynamic-mobile/梓/2.mp4",
+        "url":"/img/wallpaper/dynamic-mobile/梓/2.mp4"
+      },
     ],
   },
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
     {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Project 1",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+   // {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
   ],
   
-  statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
+  statement: [""],
 }
 
 export default config
